@@ -3,5 +3,5 @@ CFLAGS=-g
 FILES=*.c
 EXEC=xorcrypt
 
-raycaster: $(FILES)
+xorcrypt: $(FILES)
 	$(CC) $(FILES) $(CFLAGS) -o $(EXEC)
